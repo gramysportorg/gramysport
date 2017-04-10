@@ -1,7 +1,9 @@
-import Vue from 'Vue'
-import hello from './components/hello.vue';
+import './app.styl';
+import Vue from 'Vue';
+import app from './components/app.vue';
 
-var app = new Vue({
+new Vue({
   el: '#app',
-  render: h => h(hello)
+  render: h => h(app)
 });
+

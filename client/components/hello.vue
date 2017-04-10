@@ -1,11 +1,11 @@
 <template>
-    <h1>{{message}} sdgsdg</h1>
+    <h1>{{message}}</h1>
 </template>
 
 <script>
     export default {
         data: () => ({
-            message:`${1+9}`,
+            message:`${1+19}`,
         })
     }
 </script>
